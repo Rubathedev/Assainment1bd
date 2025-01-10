@@ -4,6 +4,9 @@
     margin: 0;
     padding: 0;
     font-family: "Fira Sans", sans-serif;
+   
+}
+body{
     background-color: #f5f4f4;
 }
 /* navbar design */
@@ -39,3 +42,53 @@ nav .logo {
 
 }
 /* banner design */
+.banner{
+    width: 1280px;
+    height: 560px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+}
+
+.title .banner-heading{
+    color: rgba(14, 14, 14, 0.5);
+font-family: Fira Sans;
+font-size: 24px;
+font-weight: 500;
+margin: 15px 0px;
+}
+.title .banner-para{
+    color: rgb(14, 14, 14);
+    width: 622px;
+height: 201px;
+font-family: Fira Sans;
+font-size: 56px;
+font-weight: 700;
+text-align: left;
+margin: 15px 0px;
+}
+.banner-btn{
+    padding: 17px 34px;
+    border-radius: 8px;
+background: rgb(0, 106, 80);
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+border: none;
+margin: 15px 0px;
+transition-duration: 0.7s;
+}
+.banner-btn:hover{
+    background-color: rgb(0, 11, 8);
+    color: rgb(255, 255, 255);
+}
+.banner-coloum1 {
+    margin : 0px 64px;
+}
+.banner-coloum2 img{
+    margin-left: 16px;
+}
