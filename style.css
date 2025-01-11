@@ -547,6 +547,10 @@ font-weight: 600;
 padding: 8px;
 border: none;
 }
+.sub-btn:hover{
+    background-color: rgb(74, 38, 38);
+    cursor: pointer;
+}
 .sub-text{
     margin-top: 25px;
     text-align: center;
