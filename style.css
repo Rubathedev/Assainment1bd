@@ -4,11 +4,13 @@
     margin: 0;
     padding: 0;
     font-family: "Fira Sans", sans-serif;
-   
+
 }
-body{
+
+body {
     background-color: #f5f4f4;
 }
+
 /* navbar design */
 nav {
     width: 1280px;
@@ -20,7 +22,7 @@ nav {
 }
 
 nav .logo {
-    font-size: 32px;
+    font-size: 22px;
     font-weight: 700;
     line-height: 38px
 }
@@ -36,13 +38,15 @@ nav .logo {
     line-height: 22px;
     transition-duration: 0.7s;
 }
-.nav-btn:hover{
-    background-color:rgb(0, 106, 80) ;
-    color: white;
 
+.nav-btn:hover {
+    background-color: rgb(0, 106, 80);
+    color: white;
+    cursor: pointer;
 }
+
 /* banner design */
-.banner{
+.banner {
     width: 1280px;
     height: 560px;
     display: flex;
@@ -53,42 +57,221 @@ nav .logo {
     background: rgb(198, 228, 214);
 }
 
-.title .banner-heading{
+.title .banner-heading {
     color: rgba(14, 14, 14, 0.5);
-font-family: Fira Sans;
-font-size: 24px;
-font-weight: 500;
-margin: 15px 0px;
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 15px 0px;
 }
-.title .banner-para{
+
+.title .banner-para {
     color: rgb(14, 14, 14);
     width: 622px;
-height: 201px;
-font-family: Fira Sans;
-font-size: 56px;
-font-weight: 700;
-text-align: left;
-margin: 15px 0px;
+    height: 201px;
+    font-family: Fira Sans;
+    font-size: 56px;
+    font-weight: 700;
+    text-align: left;
+    margin: 15px 0px;
 }
-.banner-btn{
+
+.banner-btn {
     padding: 17px 34px;
     border-radius: 8px;
-background: rgb(0, 106, 80);
-color: rgb(255, 255, 255);
-font-family: Fira Sans;
-font-size: 18px;
-font-weight: 600;
-border: none;
-margin: 15px 0px;
-transition-duration: 0.7s;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    margin: 15px 0px;
+    transition-duration: 0.7s;
 }
-.banner-btn:hover{
+
+.banner-btn:hover {
     background-color: rgb(0, 11, 8);
     color: rgb(255, 255, 255);
+    cursor: pointer;
 }
+
 .banner-coloum1 {
-    margin : 0px 64px;
+    margin: 0px 64px;
 }
-.banner-coloum2 img{
+
+.banner-coloum2 img {
     margin-left: 16px;
+}
+
+/* pillars of bangladesh section design */
+main {
+    max-width: 1280px;
+    margin: 80px auto;
+}
+
+.pillars-container {
+    width: 1280px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pillars-title {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.pillars-text {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-weight: 400;
+}
+
+.pillars-heading {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 14px;
+}
+
+.pillars {
+    display: flex;
+
+}
+
+.pillars-box {
+    width: 302px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    gap: 45px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin: 32px 24px 0px 10px;
+    transition: 0.7s;
+}
+
+.pillars-box:hover {
+    background-color: rgba(216, 40, 40, 0.652);
+    cursor: pointer;
+}
+
+/* vision of Bangladesh disign */
+
+.vision-container {
+    width: 1280px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.vision-heading {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.vision-para {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px 0px 24px 0px;
+}
+
+.visions {
+    display: flex;
+    gap: 24px;
+}
+
+.blue {
+    background-color: rgba(84, 144, 245, 0.2);
+}
+.dark-blue{
+    background: rgb(84, 144, 245);
+}
+
+.green {
+    background-color: rgb(198, 228, 214);
+}
+.dark-green{
+    background: rgb(9, 161, 92);
+}
+.yellow {
+    background-color: rgb(247, 235, 207);
+}
+.dark-yellow{
+    background: rgb(255, 194, 57);
+}
+.vision-box {
+    width: 410.67px;
+    height: 325px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 30px 34px 0px 34px ;
+    border-radius: 15px;
+}
+.vision-box:hover{
+    border: 1px solid black;
+    cursor: pointer;
+}
+.vision-title {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 34px 0px 12px 0px;
+}
+
+.vision-btn {
+    width: 122px;
+    height: 41px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    margin: 28px 0 0 0;
+    transition-duration:0.5s ;
+}
+.vision-btn:hover{
+    background-color: rgb(74, 38, 38);
+    cursor: pointer;
+}
+.green-btn{
+     margin-top: 48px;  
+}
+.yellow-btn{
+    margin-top: 29px;
+}
+/* the quatation design */
+.quote-container{
+    margin-top: 60px;
+   padding : 20px 10px 20px 10px;
+   
+background: rgb(255, 255, 255);
+    background-image: url("./assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    
+}
+.quote-text{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+margin: 20px 0px 12px 0px;
+}
+.quote-person{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 600;
 }
