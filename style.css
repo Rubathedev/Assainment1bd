@@ -193,35 +193,42 @@ main {
 .blue {
     background-color: rgba(84, 144, 245, 0.2);
 }
-.dark-blue{
+
+.dark-blue {
     background: rgb(84, 144, 245);
 }
 
 .green {
     background-color: rgb(198, 228, 214);
 }
-.dark-green{
+
+.dark-green {
     background: rgb(9, 161, 92);
 }
+
 .yellow {
     background-color: rgb(247, 235, 207);
 }
-.dark-yellow{
+
+.dark-yellow {
     background: rgb(255, 194, 57);
 }
+
 .vision-box {
     width: 410.67px;
     height: 325px;
     display: flex;
     flex-direction: column;
     gap: 24px;
-    padding: 30px 34px 0px 34px ;
+    padding: 30px 34px 0px 34px;
     border-radius: 15px;
 }
-.vision-box:hover{
+
+.vision-box:hover {
     border: 1px solid black;
     cursor: pointer;
 }
+
 .vision-title {
     color: rgba(14, 14, 14, 0.8);
     font-family: Fira Sans;
@@ -237,41 +244,103 @@ main {
     border: none;
     color: white;
     margin: 28px 0 0 0;
-    transition-duration:0.5s ;
+    transition-duration: 0.5s;
 }
-.vision-btn:hover{
+
+.vision-btn:hover {
     background-color: rgb(74, 38, 38);
     cursor: pointer;
 }
-.green-btn{
-     margin-top: 48px;  
+
+.green-btn {
+    margin-top: 48px;
 }
-.yellow-btn{
+
+.yellow-btn {
     margin-top: 29px;
 }
+
 /* the quatation design */
-.quote-container{
+.quote-container {
     margin-top: 60px;
-   padding : 20px 10px 20px 10px;
-   
-background: rgb(255, 255, 255);
+    padding: 20px 10px 20px 10px;
+
+    background: rgb(255, 255, 255);
     background-image: url("./assets/quote-bg.png");
     background-repeat: no-repeat;
     background-position: top left;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
-    
+
 }
-.quote-text{
+
+.quote-text {
     color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 20px 0px 12px 0px;
+}
+
+.quote-person {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 48px;
+}
+
+/* opinion section design */
+.opinion-container {
+    margin-top: 80px;
+}
+
+.opinion-heading {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.opinions{
+    padding: 32px;
+    background-color: white;
+}
+.row-head{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(198, 228, 214);
+    padding: 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    width: 1167px;
+height: 50px;
+align-items: center;
+}
+.opinion-row{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+   
+}
+.opinion-question{
+    padding: 10px 25px;
+    display: flex;
+    align-items: center;
+}
+.select{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 24px
+}
+#answer{
+    border: 1px solid rgb(14, 14, 14);
+border-radius: 4px;
+background: rgb(198, 228, 214);
+width: 152px;
+height: 44px;
+color: rgb(14, 14, 14);
 font-family: Fira Sans;
 font-size: 16px;
-font-weight: 400;
-margin: 20px 0px 12px 0px;
+font-weight: 500;
+text-align: center;
 }
-.quote-person{
-    color: rgba(14, 14, 14, 0.8);
-font-family: Fira Sans;
-font-size: 20px;
-font-weight: 600;
-}
+/* Recent News design */
