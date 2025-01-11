@@ -328,9 +328,10 @@ align-items: center;
     align-items: center;
 }
 .select{
-    border: 1px solid rgba(14, 14, 14, 0.15);
-    padding: 24px
+    border: 1px solid rgba(249, 242, 242, 0.15);
+    padding: 24px;
 }
+
 #answer{
     border: 1px solid rgb(14, 14, 14);
 border-radius: 4px;
@@ -343,4 +344,159 @@ font-size: 16px;
 font-weight: 500;
 text-align: center;
 }
+#answer:hover{
+    background-color: rgb(209, 94, 94);
+    cursor: pointer;
+}
 /* Recent News design */
+.news-container{
+    margin-top: 80px;
+}
+.news-heading{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+}
+.news-para{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+margin: 24px 0px;
+}
+.news{
+ display: flex;
+width: 1280px;
+height: 402px;
+flex-direction: column;
+margin: 32px 0px ;
+}
+.news-img img{
+    border-radius: 24px;
+}
+.news-box{
+   display: flex;
+    width: 1280px;
+height: 402px;
+    margin: 32px 0px ;
+    gap: 32px;
+    background: rgb(255, 255, 255);
+    padding:48px;
+    border-radius: 24px;
+
+}
+.news-info{
+    display: flex;
+    gap: 20px;
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+}
+.news-coloum2{
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.news-descriptoin{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+}
+.second-box{
+    flex-direction: row-reverse;
+}
+.news-btn{
+    width: 139px;
+height: 48px;
+border-radius: 8px;
+background: rgb(0, 106, 80);
+border: none;
+color: white;
+font-size: 18px;
+font-weight: 600;
+}
+.news-btn:hover{
+    background-color: rgb(74, 38, 38);
+    cursor: pointer;
+}
+/* donate section design */
+.donate-container{
+    margin-top: 580px;
+   
+}
+.donate-heading{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+text-align: center;
+}
+.donate-para{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+margin-top: 24px;
+}
+.donate-box{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 24px;
+  text-align: center;
+}
+.taka{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+padding:25px  40px;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+margin: 32px 0px;
+transition-duration: 0.5;
+}
+.recomend{
+    background: rgb(0, 106, 80);
+    color: white;
+}
+.taka:hover{
+    background: rgb(15, 200, 154);
+    cursor: pointer;
+}
+.donate-done{
+    display: flex;
+    flex-direction: column;
+}
+.donate-input{
+    width: 1032px;
+height: 64px;
+text-align: center;
+margin:0px auto 32px auto;
+border: none;
+border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+background: rgb(255, 255, 255);
+}
+.donate-btn{
+    border: 1px solid rgba(14, 14, 14, 0.1);
+border-radius: 8px;
+background: rgb(0, 106, 80);
+width: 151px;
+height: 56px;
+text-align: center;
+margin: 0px auto;
+color: white;
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+}
+.donate-btn:hover{
+    background-color: rgb(74, 38, 38);
+    cursor: pointer;
+}
